@@ -1,0 +1,21 @@
+@font-face {
+    font-family: loveStory;
+    src: url(../public/Lovely\ Balloon.ttf);
+}
+
+body {
+    background: #fddbdb;
+    font-family: loveStory;
+}
+
+.date-text {
+    color: #ec5773;
+}
+
+.outer-container {
+    padding-top: 5%;
+    padding-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

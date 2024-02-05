@@ -1,0 +1,109 @@
+@font-face {
+    font-family: loveStory;
+    src: url(../public/Lovely\ Balloon.ttf);
+}
+
+body {
+    background: #fddbdb;
+    font-family: loveStory;
+}
+
+.outer-container {
+    padding-top: 5%;
+    padding-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.date-text {
+    color: #ec5773;
+}
+
+.choice {
+    padding-top: 2%;
+    display: flex;
+    width: 100%;
+    justify-content: left;
+    padding-left: 80%;
+}
+
+.cat-gif {
+}
+
+
+
+/*Button css and hover stuff*/
+.button {
+    background: #ec5773;
+    border: 1px solid #ec5773;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+}
+
+.button:hover,
+.button:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #ff4742;
+}
+
+.button:active {
+    opacity: 0.5;
+}
+
+.move-button {
+    margin: 0;
+    position: absolute;
+    top: 90%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    cursor: pointer;
+    transition:
+        left 0.5s,
+        top 0.5s;
+}
+
+.no-button {
+    background: #ec5773;
+    border: 1px solid #ec5773;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12px 14px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+}
