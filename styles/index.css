@@ -55,7 +55,7 @@ body {
   font-family: inherit;
   font-family: sans-serif;
   font-weight: 600;
-  color: #382b22;
+  color: #7e5695;
   text-transform: uppercase;
   padding: 1.25em 2em;
   background: #f9c4d2;
@@ -182,10 +182,7 @@ button.btn:active::before {
   }
 
   .date-text {
-    font-size: 20px;
-  }
-  .rizz-text {
-    font-weight: 800;
+    font-weight: 100;
     font-size: 16px;
   }
 }
