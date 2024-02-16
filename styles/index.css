@@ -182,7 +182,7 @@ button.btn:active::before {
   }
 
   .date-text {
-    font-weight: 100;
-    font-size: 16px;
+    font-weight: 800;
+    font-size: 15px;
   }
 }
