@@ -1,23 +1,43 @@
 @font-face {
-    font-family: loveStory;
-    src: url(../public/Lovely\ Balloon.ttf);
+  font-family: loveStory;
+  src: url(../public/Lovely\ Balloon.ttf);
 }
 
 body {
-    background: #8f6bab;
-    font-family: "Rubik", sans-serif;
-    margin: 0;
+  background: #8f6bab;
+  font-family: "Rubik", sans-serif;
+  margin: 0;
+}
+
+.cat-gif {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  height: 30rem;
+  width: 30rem;
 }
 
 .date-text {
-    color: #fee0d8;
+  color: #fee0d8;
 }
 
 .outer-container {
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media all and (max-width: 600px) {
+  .cat-gif {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    height: 20rem;
+    width: 20rem;
+  }
+
+  .date-text {
+    font-size: 20px;
+  }
 }
